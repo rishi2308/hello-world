@@ -1,0 +1,327 @@
+1.Identify the option which is not a JAVA class in Selenium.
+1.Select
+2.WebDriverWait
+3.JavascriptExecutor
+4.FirefoxDriver	
+
+2.What is return type of driver.quite() method in Selenium.
+1.String
+2.void
+3.null
+3.empty space
+
+3.Select the Locator which is not available in Selenium WebDriver	
+1.id
+2.tagname
+3.name
+4.value
+
+4.System.setProperty(“_____________”,”Location of Driver”) for Opera Browser
+1.WebDriver.Opera.Driver
+2.webdriver.opera.driver
+3.webdriver.operabrowser.driver
+4.none of options
+
+5.WebDriverBackedSelenium class is retired in Selenium 3.0
+1.FALSE
+2.TRUE
+
+6.What is Default port of selenium hub ?	
+8081
+8080
+4444
+5555
+
+7.Which of the following method returns address of all open browser ? 
+1.getWindowHandles()
+2.getWindowHandle()
+3.getBrowserHandles()
+4.None of these.
+
+8.Which method does not wait for Loading whole page 	
+1.goToUrl("url")
+2.get("url") 
+3.getUrl("url")
+4.navigate().to("URL")
+
+9.How to press cancel on JavaScript alert
+
+1.driver.navigateTo().alert().dismiss();
+2.driver.switchTo().alert().cancel();
+3.driver.switchTo().alert().dismiss(); 
+4.none of the options.
+
+
+10.What is the return Type of findElement() method in Selenium WebDriver.3
+1.String
+2.WebElement
+3.By	
+4.WebDriver
+
+
+11.What is the interface available in Selenium?
+1.Select
+2.WebDriverWait	
+3.TakesScreenShot
+4.OperaDriver
+
+12.Select the option which is having return type as Boolean .	
+1.isSelected()
+2.getText()
+3.clear()	
+4.sendKeys()
+
+
+13."How to get all the links present on the page? 
+a. List < WebElement >  alllinks =d.findElements(By.xpath(""//a"")); 
+b. List < WebElement > alllinks =d.findElements(By.tagName(""a"")); 
+c. List < WebElement > alllinks =d.findElements(By.tagName(""img""))   
+d. List < WebElement > alllinks =d.findElements(By.tagName(""links""))   
+"	
+1. a & c is correct
+2. c & d is correct 
+3. a & b is correct	
+4. a & c is correct
+
+14."Refer below Code
+WebDriver driver=new RemoteWebDriver(remoteAddress,capabilities)"	1.Above code is for Selenium WebDriver
+2.Above code is for Selenium Grid	
+3.Above code is for Selenium RC
+4.Above code is for Selenium WebDriverBackedSelenium
+
+15.Cron pattern for running script once a year at midnight of 1 January	
+1. 0 0 1 1 *
+2. 0 0 1 1 1	
+3. * 0 1 1 *	
+4. none of the options
+
+16.What is return type of ResultSet.next() ?
+1.null
+2.int
+3.boolean
+4.String
+
+17.Lazy Initialization Supported by ---
+1.Page Object Model
+2.Page Factory Model
+3.TestNG
+4.None from the options	
+
+18."Arrange Execution Flow of Below Junit 5 Annotation
+a.BeforeClass 
+b.BeforeMethod
+c.Test
+d.AfterMethod
+e.AfterClass
+
+1.Test > AfterClass > BeforeMethod > AfterMethod > BeforeClass	2.AfterClass > AfterMethod > Test > BeforeClass > BeforeEach	
+3.BeforeClass > BeforeMethod> Test > AfterClass > AfterMethod	4.BeforeClass > BeforeMethod > Test > AfterMethod > AfterClass
+
+
+19. Which Exception is Thrown By Below Code
+public class BrowserSetup
+{
+	WebDriver driver;
+
+	public static WebDriver browserStart(String name)
+	{
+		System.setProperty("webdriver.chrome.driver", "");
+	WebDriver driver=new ChromeDriver();
+	
+	}
+}
+
+1.NullPointerException
+2.StaleElementRefernceException
+3.Illegalstateexception 
+4.No Exception Thrown
+
+20.Which Exception is Thrown By Below Code
+public class BrowserSetup
+{
+	WebDriver driver;
+
+	public static WebDriver browserStart(String name)
+	{
+		System.setProperty("webdriver.chrome.driver", "");
+	WebDriver driver=new ChromeDriver();
+	driver.get("www.google.com")	
+	}
+}
+
+1.NullPointerException
+2.MalformedURLException
+3.Illegalstateexception 
+4.No Exception Thrown
+
+
+
+
+
+
+
+
+1.Identify the option which is not a JAVA class in Selenium.
+1.Select
+2.WebDriverWait
+3.JavascriptExecutor
+4.FirefoxDriver	
+
+2.What is return type of driver.quite() method in Selenium.
+1.String
+2.void
+3.null
+3.empty space
+
+3.Select the Locator which is not available in Selenium WebDriver	
+1.id
+2.tagname
+3.name
+4.value
+
+4.System.setProperty(“_____________”,”Location of Driver”) for Opera Browser
+1.WebDriver.Opera.Driver
+2.webdriver.opera.driver
+3.webdriver.operabrowser.driver
+4.none of options
+
+5.WebDriverBackedSelenium class is retired in Selenium 3.0
+1.FALSE
+2.TRUE
+
+6.What is Default port of selenium hub ?	
+8081
+8080
+4444
+5555
+
+7.Which of the following method returns address of all open browser ? 
+1.getWindowHandles()
+2.getWindowHandle()
+3.getBrowserHandles()
+4.None of these.
+
+8.Which method does not wait for Loading whole page 	
+1.goToUrl("url")
+2.get("url") 
+3.getUrl("url")
+4.navigate().to("URL")
+
+9.How to press cancel on JavaScript alert
+
+1.driver.navigateTo().alert().dismiss();
+2.driver.switchTo().alert().cancel();
+3.driver.switchTo().alert().dismiss(); 
+4.none of the options.
+
+
+10.What is the return Type of findElement() method in Selenium WebDriver.3
+1.String
+2.WebElement
+3.By	
+4.WebDriver
+
+
+11.What is the interface available in Selenium?
+1.Select
+2.WebDriverWait	
+3.TakesScreenShot
+4.OperaDriver
+
+12.Select the option which is having return type as Boolean .	
+1.isSelected()
+2.getText()
+3.clear()	
+4.sendKeys()
+
+
+13."How to get all the links present on the page? 
+a. List < WebElement >  alllinks =d.findElements(By.xpath(""//a"")); 
+b. List < WebElement > alllinks =d.findElements(By.tagName(""a"")); 
+c. List < WebElement > alllinks =d.findElements(By.tagName(""img""))   
+d. List < WebElement > alllinks =d.findElements(By.tagName(""links""))   
+"	
+1. a & c is correct
+2. c & d is correct 
+3. a & b is correct	
+4. a & c is correct
+
+14."Refer below Code
+WebDriver driver=new RemoteWebDriver(remoteAddress,capabilities)"	1.Above code is for Selenium WebDriver
+2.Above code is for Selenium Grid	
+3.Above code is for Selenium RC
+4.Above code is for Selenium WebDriverBackedSelenium
+
+15.Cron pattern for running script once a year at midnight of 1 January	
+1. 0 0 1 1 *
+2. 0 0 1 1 1	
+3. * 0 1 1 *	
+4. none of the options
+
+16.What is return type of ResultSet.next() ?
+1.null
+2.int
+3.boolean
+4.String
+
+17.Lazy Initialization Supported by ---
+1.Page Object Model
+2.Page Factory Model
+3.TestNG
+4.None from the options	
+
+18."Arrange Execution Flow of Below Junit 5 Annotation
+a.BeforeClass 
+b.BeforeMethod
+c.Test
+d.AfterMethod
+e.AfterClass
+
+1.Test > AfterClass > BeforeMethod > AfterMethod > BeforeClass	2.AfterClass > AfterMethod > Test > BeforeClass > BeforeEach	
+3.BeforeClass > BeforeMethod> Test > AfterClass > AfterMethod	4.BeforeClass > BeforeMethod > Test > AfterMethod > AfterClass
+
+
+19. Which Exception is Thrown By Below Code
+public class BrowserSetup
+{
+	WebDriver driver;
+
+	public static WebDriver browserStart(String name)
+	{
+		System.setProperty("webdriver.chrome.driver", "");
+	WebDriver driver=new ChromeDriver();
+	
+	}
+}
+
+1.NullPointerException
+2.StaleElementRefernceException
+3.Illegalstateexception 
+4.No Exception Thrown
+
+20.Which Exception is Thrown By Below Code
+public class BrowserSetup
+{
+	WebDriver driver;
+
+	public static WebDriver browserStart(String name)
+	{
+		System.setProperty("webdriver.chrome.driver", "");
+	WebDriver driver=new ChromeDriver();
+	driver.get("www.google.com")	
+	}
+}
+
+1.NullPointerException
+2.MalformedURLException
+3.Illegalstateexception 
+4.No Exception Thrown
+
+
+
+
+
+
+
+
+
