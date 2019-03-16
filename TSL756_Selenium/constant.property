@@ -1,0 +1,4 @@
+URL = http://seleniumhq.org
+implicitWait=30
+excelPath=C:\Users\vshadmin\Desktop\\Book.xlxs
+e_download=//*[text()='Download']_xpath
